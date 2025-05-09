@@ -1,4 +1,4 @@
-# open-university-of-srilanka-chatbot
+# the-open-university-of-sri-lanka-chatbot
 A rule-based chatbot built with SWI-Prolog that answers queries about university faculties, departments, degrees, and general information. Includes sample usage for easy testing and learning.
 
 This is a simple rule-based chatbot developed using SWI-Prolog. It simulates a conversational agent that provides information about a university's faculties, departments, degrees, and general information. The system is built using Prolog knowledge bases and inference rules.
