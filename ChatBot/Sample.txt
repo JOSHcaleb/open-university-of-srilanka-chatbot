@@ -1,0 +1,361 @@
+% Knowledge base for the Open University of Sri Lanka Chatbot
+%Loading chatbot.pl file to SWI-prolog
+
+?- [chatbot].
+true.
+
+%starting the chatbot
+?- start.
+Welcome to the Open University of Sri Lanka chatbot!
+How can I assist you today?
+
+%about page
+
+> about.
+Here are the available sections in the About page:
+
+- About us
+
+- Administrative Divisions
+
+- OUSL Sustainability
+
+- OUSL Policies
+
+- Student Life
+
+- Annual Reports
+
+- The Open Quartey
+
+- Statistical Handbooks
+
+- Strategic Plan
+
+- Media Release
+
+%show information about - About us section
+
+> |: about("About us").
+Section: About us
+
+The Open University of Sri Lanka is a national university which is unique within the Sri Lankan university system for being the only university to offer programs of study leading to certificate, diploma, degrees and postgraduate degrees up to PhD level, facilitated through the innovative Open and Distance Mode of Learning. The degrees awarded by the university are under the preview of the University Grants Commission and are aligned with Sri Lanka Qualifications Framework.
+
+More Info visit this Link : https://ou.ac.lk/about/
+
+%show all the faculties
+
+> |: faculties.
+The university has the following faculties:
+- Education
+
+- Engineering Technology
+
+- Health Science
+
+- Humanities and Social Sciences
+
+- Natural Sciences
+
+- Management Studies
+
+%show information about particular faculty
+
+> |: faculties("Natural Sciences").
+Faculty: Natural Sciences
+The Faculty of Natural Sciences has over 35 years of experience in delivering science degree programmes adopting the Open and Distance Learning (ODL) methodologies. The Faculty functions under the leadership of the Dean, who is the administrative and the academic head. It consists of six Departments: Botany, Chemistry, Computer Science, Mathematics, Physics and Zoology. In keeping with the mission and objectives of the Faculty, it currently offers 29 programmes of study ranging from Certificate to Postgraduate level, as well as stand-alone courses and short courses. The main undergraduate programmes offered by the Faculty are BSc degree programme and BSc (Hons) degree programmes with nearly 5,000 students.
+
+
+The programmes of study offered by the Faculty of Natural Sciences are designed to develop competency in the area of specialisation, the soft skills and the technology needed for the 21st Century world of work. Further, learners are given several opportunities to enhance their career paths and continuously instil a passion for lifelong learning.
+
+More Info visit this Link : https://ou.ac.lk/natural-sciences/
+
+%show all departments in the university
+
+> |: department.
+The university has the following departments :
+- Early Childhood and Primary Education
+
+- Educational Leadership and Management
+
+- Secondary & Tertiary Education
+
+- Special Needs Education
+
+- Agricultural and Plantation Engineering
+
+- Civil Engineering
+
+- Electrical and Computer Engineering
+
+- Mechanical Engineering
+
+- Mathematics and Philosophy of Engineering
+
+- Textile and Apparel Technology
+
+- Basic Sciences
+
+- Medical Laboratory Sciences
+
+- Nursing
+
+- Pharmacy
+
+- Psychology and Counselling
+
+- English Language Teaching (DELT)
+
+- Language Studies
+
+- Legal Studies
+
+- Social Studies
+
+- Botany
+
+- Chemistry
+
+- Computer Science
+
+- Mathematics
+
+- Physics
+
+- Zoology
+
+- Accounting and Finance
+
+- Human Resource Management
+
+- Marketing Management
+
+- Organizational Studies
+
+%show departments in the particular faculty
+
+> |: department("Natural Sciences").
+The departments in Natural Sciences faculty are:
+- Botany
+
+- Chemistry
+
+- Computer Science
+
+- Mathematics
+
+- Physics
+
+- Zoology
+
+Invalid department. Available departments :
+
+%show all the degrees in the university
+
+> |: degrees.
+The university has the following departments :
+- Short Course on Early Childhood Development
+
+- Advanced Certificate in Pre-school Education
+
+- Bachelor of Education (Honours) in Primary Education Degree Programme
+
+- Post Graduate Diploma in Educational Leadership and Management (PGDELM)
+
+- Short course in Capacity Development for SLEAS Officers (Online)
+
+- Short Course on School Management (Online)- Sinhala/Tamil/English
+
+- Master of Arts in Education
+
+- Master of Education
+
+- Master of Teacher Education (MTE)
+
+- Master of Education in Special Needs Education Degree Programme
+
+- Postgraduate Diploma in Special Needs Education
+
+- Bachelor of Education Honours in Special Needs Education
+
+- Bachelor of Science Honours in Engineering â€“ Agricultural Engineering
+
+- Bachelor of Industrial Studies Honours â€“ Agricultural
+
+- Bachelor of Science Honours in Engineering â€“ Civil Engineering
+- Master of Science in Structural Engineering
+
+- Bachelor of Software Engineering Honours
+
+- Bachelor of Science Honours in Engineering â€“ Computer Engineering
+
+- Bachelor of Science Honours in Engineering â€“ Electronics & Communication Engineering
+
+- Research Degrees (MPhil & PhD)
+
+- Master of Energy Management
+
+- Master of Science in Energy for Circular Economy (Online Masters)
+
+- Bachelor of Science Honours in Engineering
+
+- Bachelor of Software Engineering Honours
+
+- Bachelor of Industrial Studies Honours
+
+- Bachelor of Science Honours in Engineering â€“ Textile & Clothing BSc(Eng)
+
+- Bachelor of Industrial Studies Honours (BIS)â€“ Apparel Production and Management
+
+- Bachelor of Industrial Studies Honours (BIS)â€“ Fashion Design and Product Development
+
+- Short Course in Molecular Biology Laboratory Techniques
+
+- Bachelor of Medical Laboratory Sciences Honours
+
+- Bachelor of Science Honours in Nursing
+
+- Master of Science in Nursing (MSc N) Degree
+
+- ELNEC Core Training Course in Palliative Care
+
+- Bachelor of Pharmacy Honours Degree Programme
+
+- Short Course on Pharmaceutical Promotion for Medical Delegates
+
+- Bachelor of Science Honours in Psychology
+
+- Short Course in English for Employment
+
+- English for Academic Purposes (Legal Studies)
+
+- English for MATE (English for Masters in Teacher Education)
+
+- Bachelor of Arts in English and English Language Teaching
+
+- Programme in Tamil Programme in Sinhala
+
+- Diploma in English Language & Literature
+
+- Bachelor of Laws Degree Programme
+
+- Master of Laws in Criminal Justice Administration
+
+- Short Course in Migration Law and Policy
+
+- Short Course in Human Centered Design for Youth Development Work
+
+- Master of Philosophy / Doctor of Philosophy (MPhil / PhD)
+
+- Short Course in Involuntary Land Acquisition and Resettlement (ILAR)
+
+- Short Course in Events Management
+
+- Diploma in Microbiology
+
+- Short course in soil-less agricultural technology for urban gardening
+
+- Bachelor of Science Honours in Botany
+
+- Short Course in Cosmetic Science and Technology
+
+- Bachelor of Science Honours in Chemistry
+
+- Diploma in Food Science
+
+- Short Course in Python for Beginners
+
+- Bachelor of Science Honorâ€™s in IT degree
+
+- Short Course in Computer Network and Security
+
+- Short course in PHP MySQL Web Development
+
+- Short Course in Professional Computer Applications (Colombo Regional Centre)
+
+- Short course in Professional web development using Joomla and WordPress
+
+- Bachelor of Science Honours in Mathematics
+
+- Advanced Certificate in Applied Earth Sciences
+
+- Bachelor of Science honours in Physics
+
+- Tropical Biodiversity and Ecotourism Field Course
+
+- Bachelor of Science Honours in Zoology
+
+- Advance Certificate in Wildlife Conservation and Management
+
+- Diploma in Natural Resources and Ecotourism
+
+- MSc in Medical Entomology and Applied Parasitology
+
+- Bachelor of Management Studies Honours in Accounting and Finance
+
+- Commonwealth Executive Master of Business / Public Administration (CEMBA/CEMPA)
+
+- Short Course in Computerized Accounting (Online)
+
+- Short Course in Financial Accounting
+
+- Advanced Certificate in Human Resource Management
+
+- Short Course in Human Resource Management (online)
+
+- MBA in Human Resource Management
+
+- MSc in Public Procurement and Supply Chain Management
+
+- Bachelor of Management Studies Honours in Marketing Management
+
+- Short course in Digital Marketing (Online/Onsite)
+
+- Advanced Certificate in Entrepreneurship and Small Business Management (ESBM)
+
+- Short Course in Entrepreneurship and Small Business
+
+- Bachelor of Management Studies Honours
+
+%show the degrees under the particular department
+
+> |: degrees("Computer Science").
+The degree programs offered by the Computer Science department are:
+- Short Course in Python for Beginners
+
+- Bachelor of Science Honorâ€™s in IT degree
+
+- Short Course in Computer Network and Security
+
+- Short course in PHP MySQL Web Development
+
+- Short Course in Professional Computer Applications (Colombo Regional Centre)
+
+- Short course in Professional web development using Joomla and WordPress
+
+Invalid degree. Available degrees :
+
+%show information about a particular degree
+
+> |: degrees("Short Course in Python for Beginners").
+Degree: Short Course in Python for Beginners
+Duration : 04 Months
+
+Course Fee : LKR 20000
+
+
+This course is available only Colombo Regional Centre
+
+Python is a highly used language in the industry due to its simplicity and ease of use. So, learning this language is really beneficial to the students. The course is very thorough and goes through everything from theories to programming and creating your own codes to run your own Python Projects. It is made in such a way that those who do not have programming knowledge but are enthusiastic in learning to become proficient in this language. In the end of the course, student will be able to create their own Python project. The assignments will be given to understand Python programming language better and get hands-on experience.
+
+
+In summary, the course will teach students the core skills they need to know to become proficient in Python Programming Language.
+
+More Info visit this Link : https://ou.ac.lk/programme/short-course-in-python-for-beginners/
+
+%quit from the chatbot
+
+> |: exit.
+Thank you for using the chatbot. Goodbye!
+true.
+
